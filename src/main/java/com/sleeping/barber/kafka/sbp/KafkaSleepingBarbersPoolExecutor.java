@@ -5,8 +5,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -30,9 +28,6 @@ public class KafkaSleepingBarbersPoolExecutor extends Thread {
 	private static final int BARBERS_NUMBER = 2;
 
 	private static final String KAFKA_TOPIC = "barberShop";
-
-	public static BlockingQueue<Integer> queue = new ArrayBlockingQueue<Integer>(
-			CHAIRS);
 
 	private ExecutorService barbersExecutor;
 	private static ConsumerConnector consumer;
