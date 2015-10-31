@@ -1,5 +1,6 @@
 # Kafka Apache and Dijkstra's Sleeping Barber Problem
-Please see details in my blog: www.vyatkins.wordpress.com
+Please see details in my blog: www.vyatkins.wordpress.com 
+<br>
 <strong>Summary</strong>
 
 In this article, I'm going to show you how to use the Kafka Apache message broker for Dijkstra's Sleeping Barber problem that we have already discussed in a previous article.
@@ -26,7 +27,8 @@ Check that the topic barberShop exists in the Kafka server
 
 $  bin/kafka-topics.sh --list --zookeeper localhost:2181
 
-<strong>Run the Java program</strong> <a title="Kafka broker with Sleeping Barber Problem" href="https://github.com/SVyatkin/KafkaSleepingBarberProblem/blob/master/src/main/java/com/sleeping/barber/kafka/sbp/KafkaSleepingBarbersPoolExecutor.java" target="_blank">from GitHub repo.</a>
+<strong>Run the Java program</strong> 
+<a title="Kafka broker with Sleeping Barber Problem" href="https://github.com/SVyatkin/KafkaSleepingBarberProblem/blob/master/src/main/java/com/sleeping/barber/kafka/sbp/KafkaSleepingBarbersPoolExecutor.java" target="_blank">from GitHub repo.</a>
 
 If you use default settings for your Kafka server you may expect result log like below
 
