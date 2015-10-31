@@ -30,40 +30,40 @@ $  bin/kafka-topics.sh --list --zookeeper localhost:2181
 
 If you use default settings for your Kafka server you may expect result log like below
 
-Threads #: 2
-Threads #: 0
-Threads #: 1
-Tue Mar 24 15:52:56 PDT 2015:customer_1
-The barber 1 startingnon-empty iterator
-The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_1
-Tue Mar 24 15:52:57 PDT 2015:customer_2
-Tue Mar 24 15:52:59 PDT 2015:customer_3
-Tue Mar 24 15:53:00 PDT 2015:customer_4
-The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_2
-Tue Mar 24 15:53:02 PDT 2015:customer_5
-Tue Mar 24 15:53:03 PDT 2015:customer_6
-Tue Mar 24 15:53:05 PDT 2015:customer_7
-The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_3
-Tue Mar 24 15:53:06 PDT 2015:customer_8
-Tue Mar 24 15:53:08 PDT 2015:customer_9
-Tue Mar 24 15:53:09 PDT 2015:customer_10
-The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_4
-The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_5
-The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_6
-The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_7
-The barber 1: is cutting hair for Tue Mar 24 13:18:31 PDT 2015:customer_8
-The barber 1: is cutting hair for Tue Mar 24 13:18:31 PDT 2015:customer_9
-The barber 1: is cutting hair for Tue Mar 24 13:18:31 PDT 2015:customer_10
-The barber 1: is cutting hair for Tue Mar 24 15:52:56 PDT 2015:customer_1
-The barber 1: is cutting hair for Tue Mar 24 15:52:57 PDT 2015:customer_2
-The barber 1: is cutting hair for Tue Mar 24 15:52:59 PDT 2015:customer_3
-The barber 1: is cutting hair for Tue Mar 24 15:53:00 PDT 2015:customer_4
-The barber 1: is cutting hair for Tue Mar 24 15:53:02 PDT 2015:customer_5
-The barber 1: is cutting hair for Tue Mar 24 15:53:03 PDT 2015:customer_6
-The barber 1: is cutting hair for Tue Mar 24 15:53:05 PDT 2015:customer_7
-The barber 1: is cutting hair for Tue Mar 24 15:53:06 PDT 2015:customer_8
-The barber 1: is cutting hair for Tue Mar 24 15:53:08 PDT 2015:customer_9
-The barber 1: is cutting hair for Tue Mar 24 15:53:09 PDT 2015:customer_10
+Threads #: 2 <br>
+Threads #: 0 <br>
+Threads #: 1 <br>
+Tue Mar 24 15:52:56 PDT 2015:customer_1 <br>
+The barber 1 startingnon-empty iterator <br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_1 <br>
+Tue Mar 24 15:52:57 PDT 2015:customer_2 <br>
+Tue Mar 24 15:52:59 PDT 2015:customer_3 <br>
+Tue Mar 24 15:53:00 PDT 2015:customer_4 <br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_2 <br>
+Tue Mar 24 15:53:02 PDT 2015:customer_5 <br>
+Tue Mar 24 15:53:03 PDT 2015:customer_6 <br>
+Tue Mar 24 15:53:05 PDT 2015:customer_7 <br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_3 <br>
+Tue Mar 24 15:53:06 PDT 2015:customer_8 <br>
+Tue Mar 24 15:53:08 PDT 2015:customer_9 <br>
+Tue Mar 24 15:53:09 PDT 2015:customer_10 <br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_4<br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_5<br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_6<br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:30 PDT 2015:customer_7<br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:31 PDT 2015:customer_8<br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:31 PDT 2015:customer_9<br>
+The barber 1: is cutting hair for Tue Mar 24 13:18:31 PDT 2015:customer_10<br>
+The barber 1: is cutting hair for Tue Mar 24 15:52:56 PDT 2015:customer_1 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:52:57 PDT 2015:customer_2 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:52:59 PDT 2015:customer_3 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:53:00 PDT 2015:customer_4 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:53:02 PDT 2015:customer_5 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:53:03 PDT 2015:customer_6 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:53:05 PDT 2015:customer_7 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:53:06 PDT 2015:customer_8 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:53:08 PDT 2015:customer_9 <br>
+The barber 1: is cutting hair for Tue Mar 24 15:53:09 PDT 2015:customer_10 <br>
 
 
 Also, you may check the Kafka queue for the "barberShop" topic from the command line.
