@@ -4,8 +4,6 @@ Please see details in my blog: www.vyatkins.wordpress.com
 
 In this article, I'm going to show you how to use the Kafka Apache message broker for Dijkstra's Sleeping Barber problem that we have already discussed in a previous article.
 
-<a title="Sleeping Barber Problem " href="https://github.com/SVyatkin/KafkaSleepingBarberProblem" target="_blank">GitHub Project Link </a>
-
 <strong>Install Kafka</strong>  by <a title="quickstart" href="http://kafka.apache.org/documentation.html#quickstart" target="_blank">following instructions from the Kafka Apache</a>
 
 $ tar -xzf kafka_2.10-0.8.2.0.tgz
@@ -32,7 +30,6 @@ $  bin/kafka-topics.sh --list --zookeeper localhost:2181
 
 If you use default settings for your Kafka server you may expect result log like below
 
-[code language="text" title="Log"]
 Threads #: 2
 Threads #: 0
 Threads #: 1
@@ -67,7 +64,7 @@ The barber 1: is cutting hair for Tue Mar 24 15:53:05 PDT 2015:customer_7
 The barber 1: is cutting hair for Tue Mar 24 15:53:06 PDT 2015:customer_8
 The barber 1: is cutting hair for Tue Mar 24 15:53:08 PDT 2015:customer_9
 The barber 1: is cutting hair for Tue Mar 24 15:53:09 PDT 2015:customer_10
-[/code]
+
 
 Also, you may check the Kafka queue for the "barberShop" topic from the command line.
 
